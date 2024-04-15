@@ -1,0 +1,29 @@
+/* ItemResult.css */
+.buttons-container {
+  display: flex;
+  justify-content: flex-end; /* Aligns the container to the right */
+  gap: 10px; /* Creates space between each button */
+  margin-top: 20px; /* Space above the button container */
+}
+
+.button {
+  flex: 1;
+  min-width: 10; /* Ensures flex items respect the container's boundaries */
+}
+/* Adjustments for the container and items for better layout */
+.login-box {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-details {
+  margin-bottom: 30px;
+}
+.item-detail-text {
+  margin-bottom: 10px;
+}
+.item-details p {
+  line-height: 1.6;
+}

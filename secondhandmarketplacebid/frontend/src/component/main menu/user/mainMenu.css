@@ -1,0 +1,19 @@
+.column-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 50vh;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+}
+.column ul li {
+  margin-bottom: 10px;
+}
+
+.user-info {
+  margin-top: 20px;
+  height: 20vh;
+}

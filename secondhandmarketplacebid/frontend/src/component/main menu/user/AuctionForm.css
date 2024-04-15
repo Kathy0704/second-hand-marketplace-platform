@@ -1,0 +1,24 @@
+/* AuctionForm.css */
+
+.AuctionForm div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.AuctionForm label {
+  margin-right: 20px;
+}
+.AuctionForm .button-container {
+  display: flex;
+  justify-content: space-between; /* 如果你想要在两个按钮之间有间隙 */
+}
+
+.AuctionForm .button-container button {
+  width: 150px; /* 或根据需要调整 */
+}
+
+input[type='text'],
+input[type='number'],
+select {
+  border: 1px solid #000; /* 示例: 使用更暗的边框颜色 */
+  background-color: #fff; /* 确保背景颜色明亮或与边框颜色形成对比 */
+}

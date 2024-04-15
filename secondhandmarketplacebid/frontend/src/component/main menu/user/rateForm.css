@@ -1,0 +1,13 @@
+.rating-form {
+  border: 2px solid #ddd; /* 添加边框 */
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.star {
+  color: grey; /* 默认星星的颜色 */
+}
+
+.star.active {
+  color: gold; /* 激活状态下的星星颜色 */
+}
